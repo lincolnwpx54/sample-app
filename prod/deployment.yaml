@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: prod-container
-        image: gcr.io/$PROJECT_ID/my-repository/sample-app:v1.0  # Use the correct container image name
+        image: us-east4-docker.pkg.dev/qwiklabs-gcp-04-b82eb6d12732/my-repository/hello-cloudbuild-prod:v1.0
         ports:
         - containerPort: 8080
